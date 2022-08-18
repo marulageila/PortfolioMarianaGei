@@ -1,0 +1,21 @@
+.container {
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.1);
+
+    /* Rounded border */
+    border-radius: 9999px;
+}
+
+.container__progress {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Colors */
+    background-color: #357edd;
+    color: #fff;
+
+    /* Rounded border */
+    border-radius: 9999px;
+}
