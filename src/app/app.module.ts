@@ -10,6 +10,11 @@ import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component'
 import { ExperienciasComponent } from './componentes/experiencias/experiencias.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { LogrosComponent } from './componentes/logros/logros.component';
+import { RedesComponent } from './componentes/redes/redes.component';
+import { BannerComponent } from './componentes/banner/banner.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { HysskillsComponent } from './componentes/hysskills/hysskills.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { LogrosComponent } from './componentes/logros/logros.component';
     AptitudesComponent,
     ExperienciasComponent,
     EducacionComponent,
-    LogrosComponent
+    LogrosComponent,
+    RedesComponent,
+    BannerComponent,
+    LoginComponent,
+    HysskillsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
